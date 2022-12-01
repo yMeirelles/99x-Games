@@ -1,0 +1,345 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    list-style: none;
+}
+
+.header {
+    background-color: #8318db;
+    width: 100%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo img {
+    width: 90px;
+    height: 90px;
+}
+
+
+.right-header {
+    display: flex;
+    align-items: center;
+}
+
+.menu li {
+    list-style: none;
+    display: inline;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #000;
+    margin-right: 20px;
+}
+
+.header h1 {
+    padding-left: 12px;
+}
+
+.text p {
+    margin-bottom: 20px;
+}
+
+
+.search-bar {
+    margin: auto 0;
+    padding-left: 17px;
+    border: none;
+    border-radius: 8px;
+    width: 250px;
+    height: 40px;
+    margin-right: 40px;
+}
+
+.destaques {
+    background-color: rgb(241, 241, 241);
+    padding: 25px 0;
+}
+
+.destaques h1 {
+    text-align: center;
+    font-size: 30px;
+    padding-bottom: 15px;
+}
+
+.video {
+    display: flex;
+    width: 50vw;
+}
+
+.video img {
+    display: flex;
+    width: 50vw;
+    height: 300px;
+}
+
+.videoetexto {
+    margin: 20px 0;
+    display: flex;
+    gap: 20px;
+}
+
+.videoetexto h2 {
+    padding-bottom: 10px;
+    font-size: 25px;
+}
+
+.container {
+    margin: 0 auto;
+    padding: 0 50px;
+}
+
+/*.jogos {
+    display: grid;
+    flex-wrap: wrap;
+    column-gap: 20px;
+    grid-template-columns: repeat(4, 1fr);
+}
+*/
+
+.jogos {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+
+}
+
+.jogos img {
+    max-width: 100%;
+    width: 100%;
+    border-radius: 10px;
+    height: 130px;
+
+}
+
+.card p {
+    font-weight: 700;
+    color: #000;
+    font-size: 13px;
+}
+
+.card a {
+    text-decoration: none;
+}
+
+.jogos h1 {
+    font-size: 14px;
+    width: 20vw;
+}
+
+.jogos h2 {
+    font-size: 12px;
+}
+
+.parte-de-cima {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+.botoes {
+    display: flex;
+    gap: 12px;
+}
+
+.botao {
+    display: flex;
+    border: 3px solid #a079c0;
+    border-radius: 10px;
+    height: 30px;
+    width: 100px;
+}
+
+.button p {
+    margin: auto auto;
+    font-size: 13px;
+}
+
+.select {
+    border: none;
+    outline: none;
+    padding: 4px;
+    border-radius: 20px;
+}
+
+.conteudo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container2 {
+    max-width: 1320px;
+    margin: 0 auto;
+    padding: 0 90px;
+}
+
+.text-platforms,
+.text-developers {
+    font-size: 19px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.title-plat b {
+    font-size: 1.2em;
+}
+
+.img-platforms,
+.img-developers {
+    width: 280px;
+    height: 165px;
+    border-radius: 10px;
+}
+
+#content-platforms,
+#content-developers {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.lancamentos {
+    padding-top: 25px;
+}
+
+
+.tabela {
+    display: grid;
+    flex-wrap: wrap;
+    grid-template-columns: repeat(3, 1fr);
+    padding-top: 20px;
+    gap: 20px;
+}
+
+#publicantes {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.tipo-de-jogo {
+    display: flex;
+    flex-direction: column;
+}
+
+.tipo-de-jogo h2 {
+    padding-bottom: 10px;
+}
+
+.tipo-de-jogo h3 {
+    padding-top: 14px;
+    padding-bottom: 7px;
+    font-size: 16px;
+}
+
+.tipo-de-jogo img {
+    max-width: 400px;
+    width: 100%;
+    height: 170px;
+}
+
+#maisdetalhes {
+    padding-top: 16px;
+}
+
+.empresajogo h3 {
+    padding-top: 14px;
+    padding-bottom: 7px;
+    font-size: 16px;
+}
+
+.empresajogo h2 {
+    padding-bottom: 15px;
+}
+
+.empresajogo {
+    display: flex;
+    flex-direction: column;
+}
+
+.empresajogo img {
+    max-width: 400px;
+    width: 100%;
+    height: 170px;
+}
+
+.about {
+    background-color: white;
+    padding: 15px 0;
+}
+
+.direita {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.direita button {
+    background-color: #d2a9f7;
+    border-radius: 40px;
+    border: 2px solid #311a3b;
+    max-width: 200px;
+    width: 100%;
+    height: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+.publishers {
+    background-color: rgb(241, 241, 241);
+    padding-top: 20px;
+}
+
+.imgs-fim img {
+    height: 45px;
+    width: 45px;
+}
+
+.contents {
+    display: grid;
+    grid-template-columns: 4fr 2fr;
+}
+
+.content2 {
+    justify-content: flex-end;
+}
+
+.about h2 {
+    margin: 20px 0;
+}
+
+footer {
+    display: flex;
+    width: 100%;
+    height: 85px;
+    background-color: #d2a9f7;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content-footer {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    margin-left: 60px;
+    align-items: center;
+}
+
+.logofinal img {
+    width: 80px;
+    height: 80px;
+}
+
+@media screen and (max-width:680px) {
+    .videoetexto {
+        display: block;
+        justify-content: center;
+    }
+}
