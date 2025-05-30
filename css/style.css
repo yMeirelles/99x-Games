@@ -6,12 +6,13 @@
 }
 
 .header {
-    background-color: #8318db;
+    background-color: #333;
     width: 100%;
     height: 70px;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    color: white;
 }
 
 .logo img {
@@ -58,8 +59,9 @@
 }
 
 .destaques {
-    background-color: rgb(241, 241, 241);
+    background-color: #444;
     padding: 25px 0;
+    color: white;
 }
 
 .destaques h1 {
@@ -271,8 +273,9 @@
 }
 
 .about {
-    background-color: white;
+    background-color: #444;
     padding: 15px 0;
+    color: white;
 }
 
 .direita {
@@ -293,8 +296,9 @@
 
 
 .publishers {
-    background-color: rgb(241, 241, 241);
+    background-color: #444;
     padding-top: 20px;
+    color: white;
 }
 
 .imgs-fim img {
@@ -319,9 +323,10 @@ footer {
     display: flex;
     width: 100%;
     height: 85px;
-    background-color: #d2a9f7;
+    background-color: #333;
     justify-content: space-between;
     align-items: center;
+    color: white;
 }
 
 .content-footer {
